@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Agency</title>
+    <meta
+      name="description"
+      content="We build beautiful, fast, and modern digital solutions that elevate your brand and drive results."
+    />
+    <!-- Render all element -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header class="header">
+      <div class="container nav-container">
+        <div class="logo">
+          <a href="#home">Digi<span>Agency</span></a>
+        </div>
+
+        <!-- Hamburger menu  -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu">
+          <span></span>
+        </label>
+
+        <nav class="nav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="container hero-wrapper">
+          <div class="hero-content">
+            <h1>Crafting Digital <span>Experiences</span></h1>
+            <p>
+              We build beautiful, fast, and modern digital solutions that elevate your brand and drive results in a
+              competitive landscape.
+            </p>
+            <a href="#contact" class="btn btn-primary">Start a Project</a>
+          </div>
+
+          <!-- Swinging Box Animation -->
+          <div class="hero-animation">
+            <div class="box-animation">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="services" class="services section-padding">
+        <div class="container">
+          <div class="section-title">
+            <h2>Our Services</h2>
+            <p>What we can do for you</p>
+          </div>
+          <div class="services-grid">
+            <article class="service-card">
+              <i class="fa-solid fa-code"></i>
+              <h3>Web Development</h3>
+              <p>
+                Custom, scalable, and responsive web applications built with the latest technologies to ensure maximum
+                performance.
+              </p>
+            </article>
+            <article class="service-card">
+              <i class="fa-solid fa-pen-nib"></i>
+              <h3>UI/UX Design</h3>
+              <p>
+                Intuitive, user-centered designs that provide engaging and seamless digital experiences across all
+                devices.
+              </p>
+            </article>
+            <article class="service-card">
+              <i class="fa-solid fa-bullhorn"></i>
+              <h3>Digital Marketing</h3>
+              <p>
+                Data-driven marketing strategies to increase your online presence, reach target audiences, and drive
+                conversions.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio section-padding">
+        <div class="container">
+          <div class="section-title">
+            <h2>Our Work</h2>
+            <p>Recent projects we are proud of</p>
+          </div>
+          <div class="portfolio-grid">
+            <article class="portfolio-item">
+              <div class="portfolio-placeholder">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <div class="portfolio-info">
+                <h3>Project Alpha</h3>
+                <p>E-commerce Platform</p>
+              </div>
+            </article>
+            <article class="portfolio-item">
+              <div class="portfolio-placeholder">
+                <i class="fa-solid fa-mobile-screen"></i>
+              </div>
+              <div class="portfolio-info">
+                <h3>Project Beta</h3>
+                <p>Corporate Mobile App</p>
+              </div>
+            </article>
+            <article class="portfolio-item">
+              <div class="portfolio-placeholder">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+              <div class="portfolio-info">
+                <h3>Project Gamma</h3>
+                <p>Marketing Dashboard</p>
+              </div>
+            </article>
+            <article class="portfolio-item">
+              <div class="portfolio-placeholder">
+                <i class="fa-solid fa-gamepad"></i>
+              </div>
+              <div class="portfolio-info">
+                <h3>Project Delta</h3>
+                <p>Entertainment Portal</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section-padding">
+        <div class="container">
+          <div class="section-title">
+            <h2>Get in Touch</h2>
+            <p>Ready to start your next big project?</p>
+          </div>
+          <div class="contact-content">
+            <form class="contact-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Your name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Your email" />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell us about your project"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <a href="#home">Digi<span>Agency</span></a>
+            <p>Crafting digital excellence.</p>
+          </div>
+          <div class="footer-social">
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Digital Agency. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
