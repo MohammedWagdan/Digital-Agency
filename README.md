@@ -15,7 +15,7 @@ A simple responsive landing page for a modern  digital agency.
 - Simple Animations
 
 ### Live Preview:
-[Click here to view the live site]()
+[Click here to view the live site](https://digital-agency-one-sooty.vercel.app/)
 
 ---
 
